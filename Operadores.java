@@ -31,6 +31,12 @@ public class Operadores {
         System.out.println(aOpLo < bOpLo && cOpLo);
         System.out.println(aOpLo > bOpLo || cOpLo);
         System.out.println(!cOpLo);
+
+        // Operadores de Atribuição = += -= *= /= %=
+        int aOpAtri = 10;
+        aOpAtri += 2; // Equivalente a aOpAtri = aOpAtri + 2
+
+        System.out.println(aOpAtri);
     }
 
 }
