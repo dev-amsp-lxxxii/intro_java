@@ -22,6 +22,15 @@ public class Operadores {
         System.out.println(aOpComp < bOpComp);
         System.out.println(aOpComp >= bOpComp);
         System.out.println(aOpComp <= bOpComp);
+
+        // Operadores Lógicos
+        int aOpLo = 10;
+        int bOpLo = 20;
+        boolean cOpLo = true;
+
+        System.out.println(aOpLo < bOpLo && cOpLo);
+        System.out.println(aOpLo > bOpLo || cOpLo);
+        System.out.println(!cOpLo);
     }
 
 }
