@@ -1,12 +1,13 @@
 public class Operadores {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 2;
+        // Operadores Aritméticos
+        int aOpAri = 10;
+        int bOpAri = 2;
 
-        System.out.println(a + b);
-        System.out.println(a - b);
-        System.out.println(a * b);
-        System.out.println(a / b);
-        System.out.println(a % b);
+        System.out.println(aOpAri + bOpAri);
+        System.out.println(aOpAri - bOpAri);
+        System.out.println(aOpAri * bOpAri);
+        System.out.println(aOpAri / bOpAri);
+        System.out.println(aOpAri % bOpAri);
     }
 }
