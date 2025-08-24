@@ -37,6 +37,19 @@ public class Operadores {
         aOpAtri += 2; // Equivalente a aOpAtri = aOpAtri + 2
 
         System.out.println(aOpAtri);
+
+        // Operadores Unários
+        int aOpUn = 10;
+        aOpUn++;
+        System.out.println(aOpUn);
+        /* 
+        Pré-incremento int b = ++a; // Agora, a é 6 e b também é 6
+        Pós-incremento int c = a++; // Agora, a é 7, mas c é 6 
+        (porque o valor antigo de a foi usado)
+        Pré-decremento int d = --a; // Agora, a é 6 e d também é 6
+        Pós-decremento int e = a--; // Agora, a é 5, mas e é 6 
+        (porque o valor antigo de a foi usado)
+         */
     }
 
 }
