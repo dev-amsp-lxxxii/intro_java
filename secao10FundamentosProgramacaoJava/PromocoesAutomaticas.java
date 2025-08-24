@@ -1,4 +1,6 @@
+
 public class PromocoesAutomaticas {
+
     public static void main(String[] args) {
         byte aByte = 10;
         int bInt = aByte + 5; // aByte é promovido para int antes do cálculo

@@ -1,4 +1,6 @@
+
 public class TiposPrimitivos {
+
     public static void main(String[] args) {
         byte idade = 25;
         short ano = 2025;

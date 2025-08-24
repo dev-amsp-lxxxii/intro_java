@@ -1,4 +1,6 @@
+
 public class InferenciaVariaveisLocais {
+
     public static void main(String[] args) {
         var numInt = 10; // inferêrencia do tipo int
         var numDouble = 10.5; // inferêrencia do tipo double
