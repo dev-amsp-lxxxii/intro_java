@@ -1,20 +1,20 @@
 
-public class Funcionario {
+public class FuncionarioI {
 
     String nome;
     String cargo;
     int idade;
 
-    // Este é o contrutor
-    Funcionario(String nome, String cargo, int idade) {
-        this.nome = nome;
-        this.cargo = cargo;
-        this.idade = idade;
-    }
-
     public static void main(String[] args) {
-        Funcionario funcionario1 = new Funcionario("Adelmo", "Desenvolvedor", 43);
-        Funcionario funcionario2 = new Funcionario("Maria", "Gerente", 50);
+        FuncionarioI funcionario1 = new FuncionarioI();
+        funcionario1.nome = "Adelmo";
+        funcionario1.cargo = "Desenvolvedor";
+        funcionario1.idade = 43;
+
+        FuncionarioI funcionario2 = new FuncionarioI();
+        funcionario2.nome = "Maria";
+        funcionario2.cargo = "Gerente";
+        funcionario2.idade = 50;
 
         System.out.println("Nome: " + funcionario1.nome);
         System.out.println("Cargo: " + funcionario1.cargo);
