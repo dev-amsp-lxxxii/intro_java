@@ -1,4 +1,6 @@
+
 public class Bolo {
+
     // variável de instância ou variável menbro
     // inicicialização padrão -> zero
     int quantidadeAcucar = 288;
