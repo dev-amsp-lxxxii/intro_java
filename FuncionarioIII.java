@@ -1,5 +1,5 @@
 
-public class Funcionario {
+public class FuncionarioIII {
 
     String nome;
     String cargo;
@@ -7,15 +7,15 @@ public class Funcionario {
 
     // Construtor default explicito
     // Este contrutor é criando implícitamente.
-    Funcionario() {
+    FuncionarioIII() {
     }
 
-    Funcionario(String nomeInit) {
+    FuncionarioIII(String nomeInit) {
         nome = nomeInit;
     }
 
     // Este é o contrutor
-    Funcionario(String nomeInit, String cargoInit, int idadeInit) {
+    FuncionarioIII(String nomeInit, String cargoInit, int idadeInit) {
         nome = nomeInit;
         cargo = cargoInit;
         idade = idadeInit;
@@ -23,16 +23,16 @@ public class Funcionario {
 
     public static void main(String[] args) {
 
-        Funcionario funcionario01 = new Funcionario();
+        FuncionarioIII funcionario01 = new FuncionarioIII();
         funcionario01.nome = "Adelmo";
         funcionario01.cargo = "Desenvolvimento";
         funcionario01.idade = 43;
 
-        Funcionario funcionario02 = new Funcionario("Pedro");
+        FuncionarioIII funcionario02 = new FuncionarioIII("Pedro");
         funcionario02.cargo = "Pesquisador";
         funcionario02.idade = 40;
 
-        Funcionario funcionario03 = new Funcionario("Marta", "RH", 55);
+        FuncionarioIII funcionario03 = new FuncionarioIII("Marta", "RH", 55);
 
         System.out.println("Nome: " + funcionario01.nome);
         System.out.println("Cargo: " + funcionario01.cargo);
