@@ -10,11 +10,15 @@ public class Funcionario {
     Funcionario() {
     }
 
+    Funcionario(String nomeInit) {
+        nome = nomeInit;
+    }
+
     // Este é o contrutor
-    Funcionario(String nome, String cargo, int idade) {
-        this.nome = nome;
-        this.cargo = cargo;
-        this.idade = idade;
+    Funcionario(String nomeInit, String cargoInit, int idadeInit) {
+        nome = nomeInit;
+        cargo = cargoInit;
+        idade = idadeInit;
     }
 
     public static void main(String[] args) {
@@ -24,10 +28,22 @@ public class Funcionario {
         funcionario01.cargo = "Desenvolvimento";
         funcionario01.idade = 43;
 
-        Funcionario funcionario02 = new Funcionario("Marta", "RH", 55);
+        Funcionario funcionario02 = new Funcionario("Pedro");
+        funcionario02.cargo = "Pesquisador";
+        funcionario02.idade = 40;
+
+        Funcionario funcionario03 = new Funcionario("Marta", "RH", 55);
 
         System.out.println("Nome: " + funcionario01.nome);
         System.out.println("Cargo: " + funcionario01.cargo);
         System.out.println("Idade: " + funcionario01.idade);
+
+        System.out.println("Nome: " + funcionario02.nome);
+        System.out.println("Cargo: " + funcionario02.cargo);
+        System.out.println("Idade: " + funcionario02.idade);
+
+        System.out.println("Nome: " + funcionario03.nome);
+        System.out.println("Cargo: " + funcionario03.cargo);
+        System.out.println("Idade: " + funcionario03.idade);
     }
 }
