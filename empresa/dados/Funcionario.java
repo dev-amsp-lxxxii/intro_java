@@ -2,7 +2,7 @@ package empresa.dados;
 
 public class Funcionario {
 
-    String nome;
+    public String nome; // Por está public posso acessar de qualquer parte do programa.
     String cargo;
     double salario;
     int idade;
