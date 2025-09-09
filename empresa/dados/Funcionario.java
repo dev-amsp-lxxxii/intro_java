@@ -2,7 +2,9 @@ package empresa.dados;
 
 public class Funcionario {
 
-    public String nome; // Por está public posso acessar de qualquer parte do programa.
+    // Quando está usando o modificador de acesso public, se pode utilizar a variável, função fora da classe
+    // Quando está usando o modificador de acessor private, só pode usar a váriavel, função dentro da classe
+    private String nome;
     String cargo;
     double salario;
     int idade;
